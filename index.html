@@ -29,7 +29,7 @@
                 <h1>Wandy & Amanda</h1>
                 <p>Akan melangsungkan resepsi pernikahan dalam:</p>
                 <div class="simply-countdown"></div>
-                <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
+                <a href="#home" class="btn btn-lg mt-4">Lihat Undangan</a>
             </main>
         </section>
 
@@ -63,7 +63,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
                         <h2>Acara Pernikahan</h2>
-                        <h3>Diselenggarakan pada 28 juni 2027 di Pesanggrahan, Jakarta Selatan</h3>
+                        <h3>Diselenggarakan pada 28 juni 2027 di Balai Sudirman, Jakarta Selatan</h3>
                         <p>Oleh karena itu, dengan segala hormat, kami bermasud untuk mengundang Bapak/Ibu, Saudara/i. untuk hadir pada acara pernikahan kami.</p>
                     </div>
                 </div>
@@ -178,6 +178,15 @@
                 refresh: 1000, // Refresh interval in ms, default: 1000
                 plural: false, // Use plurals for labels
             });
+        </script>
+
+        <script>
+            const hamburger = document.querySelector('.navbar-toggler');
+            const stickyTop = document.querySelector('.sticky-top');
+
+            hamburger.addEventListener('click', function(){
+                stickyTop.style.overflow = 'visible';
+            })
         </script>
     </body>
 </html>

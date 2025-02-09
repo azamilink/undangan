@@ -4,15 +4,11 @@
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
     min-height: 4000px;
+    overflow-x: hidden;
 }
 
 .hero::before {
@@ -204,6 +200,10 @@ body {
     .mynavbar .nav-link {
         font-size: 2rem;
         text-align: center;
+    }
+
+    .sticky-top {
+        overflow: hidden;
     }
 }
 
